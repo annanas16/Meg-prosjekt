@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        main {
+            margin-top: 30px;
+        }
+
+        .interesse-container {
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid rgb(189, 207, 239);
+            border-radius: 20px;
+            gap: 20px;
+            padding: 20px;
+            margin: 50px;
+        }
+
+
+        .interesse {
+            background-color: rgb(247, 235, 225);
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .interesse img {
+            width: 80%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 100px;
+            margin: 0 auto;
+        }
+
+        .interesse>* {
+            margin: 20px;
+        }
+
+        .interesse:hover {
+            opacity: 70%;
+            transition-duration: 0.5s;
+
+        }
+
+        .info {
+            margin: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html"> <i class="fa-regular fa-house"></i> Hjem </a> </li>
+                <li><a href="timeplan1.html"><i class="fa-regular fa-calendar-days"></i> Timeplan</a></li>
+                <li><a href="interesser.html"><i class="fa-regular fa-star"></i> Interesser</a></li>
+                <li><a href="bildegalleri.html"><i class="fa-regular fa-images"></i> Bildegalleri</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="generellinteresse">
+            <h3 class="info">Jeg har mange interesser. Her er noen av de: </h3>
+            <div class="interesse-container">
+                <div class="interesse">
+                    <h3>Piano</h3>
+                    <img src="./bilder/piano.jpg" alt="">
+                    <p>Jeg har spilt piano i over 10 år, og har som oftest pianotimer en gang i uken.</p>
+                </div>
+                <div class="interesse">
+                    <h3>Baking</h3>
+                    <img src="./bilder/bake1.jpg" alt="">
+                    <p>Jeg er glad i å bake med venner, og liker kaker, boller, muffins og mer! </p>
+                </div>
+                <div class="interesse">
+                    <h3>Dans</h3>
+                    <img src="./bilder/dans.jpg" alt="">
+                    <p>Jeg har danset i to år. Jeg danser hiphop en gang i uken.</p>
+                </div>
+
+                <div class="interesse">
+                    <h3>Lesing</h3>
+                    <img src="./bilder/lese.jpg" alt="">
+                    <p>Jeg leser ofte om kvelden før jeg legger meg. Jeg er aller mest glad i skjønnlitteratur, særlig
+                        romaner og fantasy.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="stjernebilder">
+            <h2>Stjernebilder! Til ære for astronomiolympiaden måtte jeg ha et bildegalleri med stjernebilder med også:)
+            </h2>
+            <div class="stjernebilder-grid">
+                <div class="stjerne-card perseus">
+                    <img src="./bilder/perseus.jpg" alt="">
+                    <p>Perseus - en gresk gud</p>
+                </div>
+                <div class="stjerne-card">
+                    <img src="./bilder/hydra.jpg" alt="">
+                    <p>Hydra - også kalt vannslangen</p>
+                </div>
+                <div class="stjerne-card">
+                    <img src="./bilder/cepheus.jpg" alt="">
+                    <p>Cepheus - kongen som ser ut som et hus</p>
+                </div>
+                <div class="stjerne-card">
+                    <img src="./bilder/dragen.jpg" alt="">
+                    <p>Dragen - draco</p>
+                </div>
+                <div class="stjerne-card">
+                    <img src="./bilder/loven.jpg" alt="">
+                    <p>Løven - leo</p>
+                </div>
+                <div class="stjerne-card">
+                    <img src="./bilder/tvillingene.jpg" alt="">
+                    <p>Tvillingene</p>
+                </div>
+                <div class="stjerne-card"></div>
+                <div class="stjerne-card"></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
