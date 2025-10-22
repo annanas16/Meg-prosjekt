@@ -24,23 +24,21 @@ img {
     display: block;
 }
 
-/* /CSS reset */
+/* /end CSS reset */
+
+/* Nav-bar */
 
 .nav {
     background-color: rgb(189, 207, 239);
 
 }
 
+
 .nav>ul {
     display: flex;
     justify-content: space-evenly;
     padding: 40px;
-    flex-wrap: wrap;
-
-
-
-
-
+/*  */    flex-wrap: wrap;
 }
 
 .nav a {
@@ -52,9 +50,7 @@ img {
     border-radius: 15px;
     /* border: 2px solid rgba(255, 255, 255, 0.535); */
    /*  box-shadow: 1px 1px 4px rgb(44, 90, 130); */
-
-
-
+Na
 }
 
 .nav a:hover {
@@ -79,6 +75,8 @@ img {
         padding: 30px;
     }
 }
+/* end Nav-bar */
+
 /* Timeplan2 */
 
 /* Index */
@@ -99,7 +97,11 @@ img {
         object-fit: cover;
     }
 
-/* Ekstra - astro */
+/* Interesser */
+
+    /* Generelle interesser */
+    
+    /* Astronomi */
     .stjernebilder h2 {
         margin: 50px 30px 0px 50px;
     }
