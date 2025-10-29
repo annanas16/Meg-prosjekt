@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            
+            width: 400px;
+            height: 200px;
+            border: 1px solid;
+        }
+
+        .wrapper {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .nr1 {
+            background-color: rgb(255, 255, 0);
+            box-shadow: 20px 0px 10px /* siste er gradienten, når du går 
+            fra en verdi til en annen */
+        }
+
+        .nr2 {
+            background-color: rgb(0, 255, 255);
+            box-shadow: 0px 20px 10px; /* 2. er bottom shadowen */
+        }
+
+        .nr3 {
+            background-color: rgba(255,0,0,0.2); /* red green blue Alpha (gjennomsiktighet) */
+        }
+    </style>
+</head>
+<body>
+    <h1>Box-Shadow</h1>
+    <div class="wrapper">
+        <div class="box nr1"></div>
+        <div class="box nr2"></div>
+        <div class="box nr3"></div>
+        <div class="box nr4"></div>
+    </div>
+</body>
+</html>
