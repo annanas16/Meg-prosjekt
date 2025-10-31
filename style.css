@@ -209,11 +209,12 @@ Na
     .barnebilder {
         display: flex;
         gap: 15px;
+        justify-content: center;
     }
 
     .barnebilder >* {
-        flex:1;
         border: 10px ridge rgb(189, 207, 239);
+        max-width: 300px;
     }
 
     /* .barnebilder>*:hover {
