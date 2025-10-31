@@ -219,7 +219,7 @@ Na
     }
 
     .barnebilder>*:hover {
-        width: 130%;
+        scale: 110%;
         transition-duration: 1s;
     }
 
