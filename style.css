@@ -392,6 +392,7 @@ footer {
         margin: 50px;
         gap: 15px;
         margin-bottom: 150px !important;
+        flex-wrap: wrap;
         
     }
 
