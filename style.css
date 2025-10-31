@@ -209,18 +209,17 @@ Na
     .barnebilder {
         display: flex;
         gap: 15px;
-        
-
     }
 
     .barnebilder >* {
+        flex:1;
         border: 10px ridge rgb(189, 207, 239);
     }
 
-    .barnebilder>*:hover {
+    /* .barnebilder>*:hover {
         width: 130%;
         transition-duration: 1s;
-    }
+    } */
 
     .to >* {
         margin: 50px;
